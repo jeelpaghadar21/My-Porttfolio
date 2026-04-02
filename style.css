@@ -1,0 +1,411 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 350px;
+  background: #040b14;
+  padding-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.sidebar a {
+  display: block;
+  color: #fff;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar a:hover {
+  background: none;
+}
+
+.sidebar i {
+  margin-right: 10px;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .content {
+    margin-left: 200px;
+  }
+}
+
+.main {
+  display: flex;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid gray;
+}
+
+.social-icons i {
+  width: 20px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  background: white;
+}
+.nav-link {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: white !important;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+.nav-link:hover {
+  color: yellow !important;
+  transition: 0.3s !important;
+  transform: scale(1.1);
+}
+
+.background {
+  background-image: url(images/jeel2.JPG);
+  height: 820px;
+  width: 1380px;
+  margin-left: 350px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.background h1 {
+  padding-left: 60px;
+  font-weight: 500px;
+  font-size: 60px;
+  padding-top: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.background p {
+  padding-left: 60px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.about-title {
+  font-size: 20px;
+}
+.about-title h2 {
+  font-size: 40px;
+}
+
+.about-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.info-list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.info-list li span {
+  font-weight: 600;
+}
+
+.arrow {
+  color: #0d6efd;
+  margin-right: 8px;
+}
+body {
+  background: #ffffff;
+}
+
+.about-section {
+  padding: 60px;
+  margin-left: 350px;
+}
+
+.section-title h2 {
+  font-weight: 700;
+}
+
+.section-title hr {
+  width: 50px;
+  border: 2px solid #0d6efd;
+  opacity: 1;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about-info h3 {
+  font-weight: 700;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 15px;
+}
+
+.info-list i {
+  color: #0d6efd;
+  margin-right: 10px;
+}
+.stats-section {
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+.stat-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat-box i {
+  font-size: 40px;
+  color: #149ddd;
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.stat-text {
+  margin: 0;
+  color: #555;
+}
+
+.stat-title {
+  font-weight: 600;
+  color: #222;
+}
+.stat-box i {
+  size: 40px;
+}
+.skills-section {
+  background: #f7f9fc;
+  margin-left: 350px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.section-title h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 0;
+  background: #e0e0e0;
+}
+
+.progress-bar {
+  background: #149ddd;
+}
+
+.skill-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.skill-percent {
+  float: right;
+  font-size: 14px;
+}
+.resume {
+  margin-left: 450px;
+}
+.name h1 {
+  text-decoration: underline #149ddd;
+}
+.portfolio {
+  background: #f5f8fd;
+  margin-left: 350px;
+  margin-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.section-title h2 {
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 10px;
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+.portfolio-card {
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.portfolio-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.portfolio-card:hover img {
+  transform: scale(1.05);
+}
+.filter-btn {
+  margin: 5px;
+}
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: #149ddd;
+  color: #fff;
+}
+
+.inform {
+  padding-right: 300px;
+  padding-left: 300px;
+  margin-left: 150px;
+}
+.services h1 {
+  text-decoration: underline #149ddd;
+}
+
+.details {
+  display: flex;
+  gap: 50px;
+}
+.feature-box i {
+  font-size: 40px;
+  color: #149ddd;
+}
+.feature-box h2 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.feature-box p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.8;
+}
+
+.testimonials {
+  background: #f5f8fc;
+  padding-left: 300px;
+  padding-right: 100px;
+  margin-left: 150px;
+}
+
+.testimonials .line {
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  margin-top: 10px;
+}
+
+.testimonial-box {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-box::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.quote {
+  font-size: 24px;
+  color: #149ddd;
+  font-weight: bold;
+}
+
+.contact {
+  background: #ffffff;
+  padding-left: 200px;
+  padding-right: 100px;
+  margin-left: 250px;
+}
+
+.contact .line {
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  margin-top: 10px;
+}
+
+.contact-info,
+.contact-form {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box {
+  width: 45px;
+  height: 45px;
+  background: #e7f3ff;
+  color: #149ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.contact-form button {
+  background: #149ddd;
+  border: none;
+}
+
+.contact-form button:hover {
+  background: #0d83c7;
+}
+.footer {
+  margin-left: 150px;
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: small;
+  text-align: center;
+  align-items: center;
+  background: #f4fafd;
+}
+html {
+  scroll-behavior: smooth;
+}
